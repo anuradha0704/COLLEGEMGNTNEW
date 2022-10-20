@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <title>Calculator</title>
+    <style>
+
+        table{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        table tr td
+        {
+            border: solid;
+            box-shadow: 5px;
+            padding: 10px;
+            border-radius: 2px;
+            border-radius: 10px;
+            border-color: rgb(17, 9, 9);
+            box-shadow: 10px 5px 10px rgb(43, 15, 15);
+    
+        }
+        table tr td input
+        {
+            border-radius: 4px;
+
+        }
+    
+        form
+        {
+            width: fit-content;
+            margin: auto;
+            border-radius: 10px;
+        }
+        fieldset{
+                border-radius: 10px;
+                border-color: slategray;
+                border: double; 
+                box-shadow: 10px 10px 10px rgb(43, 15, 15);    
+        }
+        fieldset legend h1{
+            text-shadow: 10px 10px 10px rgb(43, 15, 15);
+            color: rgb(38, 38, 59);
+        }
+        .buttonstyle td input
+        {
+            text-align: center;
+             font-size: x-large;
+             height: 40px;
+             width: 50px;
+             border-radius: 10px;
+             background-color: rgb(205, 224, 218);
+            
+        }
+        .buttonstyle td input
+        {
+            padding: 5px;
+            margin: 5px;
+            
+        }
+
+        #textstyle input{
+            
+           text-align: center;
+           font-size: larger;
+           border-radius: 10px;
+           height: 60px;
+        }
+     #butonstyle1 input
+     {
+        text-align: center;
+        font-size: x-large;
+        width: 50px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: rgb(202, 76, 76);
+     }    
+     .buttonstyle :hover{
+        
+        background-color: rgb(202, 102, 169);
+        
+     }
+
+        
+    </style>
+</html>
+<body>
+    <form>
+        <fieldset>
+            <legend><H1>Calculator</H1></legend>
+        
+        <table>
+           <tr>
+                <td colspan="3" id="textstyle"><input type="text"></td>
+                <td id="butonstyle1"><input type="button" value="C" ></td>     
+          </tr>
+          <tr class="buttonstyle">
+              <td><input type="button" value="1"></td> 
+              <td><input type="button" value="2"></td>  
+              <td><input type="button" value="3"></td> 
+              <td><input type="button" value="/"></td>    
+         </tr>
+         <tr class="buttonstyle">
+            <td><input type="button" value="4"></td> 
+            <td><input type="button" value="5"></td>  
+            <td><input type="button" value="6"></td> 
+            <td><input type="button" value="X"></td>    
+       </tr>
+       <tr class="buttonstyle">
+              <td><input type="button" value="7"></td> 
+              <td><input type="button" value="8"></td>  
+              <td><input type="button" value="9"></td> 
+              <td><input type="button" value="+"></td>    
+        </tr class="buttonstyle">
+        <tr class="buttonstyle">
+            <td><input type="button" value="."></td> 
+            <td><input type="button" value="0"></td>  
+            <td><input type="button" value="="></td> 
+            <td><input type="button" value="*"></td>    
+       </tr>
+        </table>
+        </fieldset>
+    </form>
+</body>
